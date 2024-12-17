@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 const Hero = () => {
     return(
 
- <div className="relative w-full h-[500px] overflow-hidden sm:w-auto ">
-            <img src={"/images/Hero1.png"} alt="Hero" className="object-cover w-full h-full" />
+ <div className="relative w-full h-[790px] overflow-hidden sm:w-auto ">
+            <Image src={"/images/Hero1.png"} alt="Hero" width={100} height={100} className="object-cover w-full h-full" ></Image>
 
             <div className="absolute top-4 right-4 bg-[#FFF3E3]   p-4 w-[643px] h-[443px] pr-[100px]   pt-[100px] mt-[1px]  rounded-xl max-w-xs justify-center items-center">
               
@@ -27,15 +29,15 @@ const Hero = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="overflow-hidden rounded-lg shadow-lg">
-                    <img src="/images/Hero2.png" alt="Image 1" className="w-full h-auto" />
+                 <Image src="/images/Hero2.png" alt="Image 1" width={100} height={100} className="w-full h-auto" ></Image> 
                 </div>
                 <div className="overflow-hidden rounded-lg shadow-lg">
-                    <img src="/images/Hero3.png" alt="Image 2" className="w-full h-auto" />
+                    <Image src="/images/Hero3.png" alt="Image 2"  width={100} height={100} className="w-full h-auto" ></Image>
                 </div>
 
 
  <div className="overflow-hidden rounded-lg shadow-lg">
-                    <img src="/images/Hero4.png" alt="Image 3" className="w-full h-auto" />
+                    <Image src="/images/Hero4.png" alt="Image 3" width={90} height={100}  className="w-full h-auto" ></Image>
                 </div>
             </div>
         </div>

@@ -21,10 +21,11 @@
            <div className="flex flex-col md:flex-row items-start">
            <div className="relative w-64 h-64 md:w-80 md:h-80 mb-4 md:mb-0">
              <Image
-               src="/images/Explore1.png" // Change the image path accordingly
+               src="/images/Explore1.png" 
                layout="fill"
                objectFit="cover"
-               className=""
+               width={100}
+               height={100}
                alt="Large Image"
              />
            </div>
@@ -34,7 +35,8 @@
                src="/images/Explore2.png" 
                layout="fill"
               objectFit="cover"
-      className=""
+                width={100}
+                height={40}
                alt="Small Image"
              />
              <div className="absolute left-0 top-[35%] flex items-center">

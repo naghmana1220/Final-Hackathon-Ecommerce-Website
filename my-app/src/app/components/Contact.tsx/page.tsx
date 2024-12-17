@@ -1,8 +1,20 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Contact = () => {
   return (
     <div id="Contact">
+         <div className='sm:w-full sm:h-auto md:w-[1440px] md:h-auto xl:w-full lg:w-full'>   
+        <Image 
+        src="/images/Contact5.png"
+        alt="shop image"
+        width={1440}
+        height={316}      
+      className="lg:w-[1940px] "
+        ></Image>
+</div>
+
+
     <div className="container mx-auto p-4 pt-10">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-4">Get In Touch With Us</h2>
@@ -14,20 +26,20 @@ const Contact = () => {
        
         <div className="md:w-1/2 p-4">
           <div className="flex items-center mb-4">
-          <img src="/images/Contact2.png" className='w-6 h-8 pr-2 pt-2 '/>
+          <Image src="/images/Contact2.png" alt='icon' width={100} height={100}   className='w-6 h-8 pr-2 pt-2 '></Image>
             <h3 className="text-lg font-semibold">Address</h3>
           </div>
           <p className="text-gray-600 ">236 5th SE Avenue, </p>
           <p className="text-gray-600">New York NY10000, United States</p>
           <div className="flex items-center mb-4">
-          <img src="/images/Contact3.png" className='w-8 h-8 pr-2 pt-2 '/>
+          <Image src="/images/Contact3.png" alt='icon' width={100} height={100} className='w-8 h-8 pr-2 pt-2 '></Image>
             <h3 className="text-lg font-semibold pt-4">Phone</h3>
           </div>
           <p className="text-gray-600">Mobile: +(84) 546-6789</p>
           <p className="text-gray-600">Hotline: +(84) 456-6789</p>
 
           <div className="flex items-center mb-4">
-           <img src="/images/Contact2.png" className='w-6 h-8 pr-2 pt-2 '/>
+           <Image src="/images/Contact2.png"  alt="icon" className='w-6 h-8 pr-2 pt-2 '></Image>
              
             <h3 className="text-lg font-semibold pt-3">Working Hours</h3>
           </div>
@@ -48,7 +60,8 @@ const Contact = () => {
 
           <h3 className="text-lg font-normal mb-4">Message</h3>
           <textarea placeholder="Message" className="w-[400px] p-2 border border-gray-300 rounded mb-4 h-24" />
-          <button className="w-[269px] h-[55px] p-2 bg-[#B88E2F] text-white font-semibold rounded ">Submit</button>
+           <button className="w-[269px] h-[55px] p-4 px-44  bg-[#B88E2F] text-white font-semibold rounded ">Submit</button> 
+         
         </div>
       </div>
     </div>
