@@ -32,7 +32,7 @@ const Cart = () => {
              {items.map((item) => (
               <div key={item.id} className="bg-white border  shadow hover:shadow-cyan-400 p-4 ">
                 <Link href="/Description">
-                <Image src={item.imgSrc} alt={item.title}  width={100} height={100} className="w-full md:w-auto md:max-h-screen sm:justify-center sm:items-center mb-4" ></Image>
+                <Image src={item.imgSrc} alt={item.title}  width={285} height={301} className="w-full md:w-auto md:max-h-screen sm:justify-center sm:items-center mb-4" />
                 </Link>
                 <h3 className="text-lg font-semibold text-[#3A3A3A]">{item.title}</h3>
                 <p className="text-[#898989]">{item.description}</p>

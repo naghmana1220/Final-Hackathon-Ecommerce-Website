@@ -14,9 +14,9 @@ const Checkout = () => {
       src="/images/Check1.png"
         className="lg:w-[1940px]"
         alt="banner"
-        width={100}
-        height={100}
-      ></Image>
+        width={1440}
+        height={316}
+      />
 
       
       <div className='flex md:flex-row flex-col gap-6 max-w-[1240px] mx-auto mt-[63px]'>

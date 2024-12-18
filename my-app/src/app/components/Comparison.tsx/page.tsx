@@ -8,9 +8,9 @@ const Comparison = () => {
 src="/images/Compare1.png"
 className="lg:w-[1940px]"
 alt="banner"
-width={100}
-height={100}
-></Image>
+width={1440}
+height={316}
+/> 
 
 
     
@@ -28,7 +28,7 @@ height={100}
         
 
           
-          <Image src="/images/Compare2.png" alt="Product" width={100} height={100}  className="h-41 pt-10 w-auto mb-2 pb-2"></Image>
+          <Image src="/images/Compare2.png" alt="Product" width={100} height={100}  className="h-41 pt-10 w-auto mb-2 pb-2" />
           <h4 className="text-lg font-semibold ">Asgaard Sofa</h4>
           <p className=" ">Rs. 250,000.00</p>
           <p className="text-gray-500  ">4.7 ⭐⭐⭐⭐☆ | 204 Reviews</p>
@@ -37,7 +37,7 @@ height={100}
        
         <div className="p-4 flex flex-col items-center ">
          
-          <Image src="/images/Compare3.png" alt="Product" width={100} height={100}   className="h-41 w-auto mb-2 pb-2" ></Image>
+          <Image src="/images/Compare3.png" alt="Product" width={100} height={100}   className="h-41 w-auto mb-2 pb-2" />
           <h4 className="text-lg font-semibold">Outdoor Sofa Set</h4>
           <p className="">Rs. 224,000.00</p>
           <p className="text-gray-500">4.2 ⭐⭐⭐⭐☆ | 145 Review   </p>

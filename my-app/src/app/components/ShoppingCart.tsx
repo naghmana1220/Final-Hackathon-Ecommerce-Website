@@ -8,22 +8,22 @@ const ShoppingCart = () => {
   
 <div className="flex justify-between mb-3">
 <h2 className="text-2xl font-semibold mb-4">Shopping Cart</h2>
-<Image src="/images/Shopping1.png" alt="image"  width={100} height={100}  className="text-2xl font-semibold mb-4 w-4 h-6"></Image>
+<Image src="/images/Shopping1.png" alt="image"  width={100} height={100}  className="text-2xl font-semibold mb-4 w-4 h-6" />
 </div>
 <hr />
 <div className="flex justify-between mb-4 mt-4">
-  <Image src="/images/Shopping4.png"  alt="image"  width={100} height={100} className="font-medium text-[#9F9F9F]" ></Image>
+  <Image src="/images/Shopping4.png"  alt="image"  width={100} height={100} className="font-medium text-[#9F9F9F]" />
   <span className="font-medium mt-2">Asgaard Sofa
     <p className="text-[#B88E2E] mt-2">1 * Rs. 250.000.00</p>
   </span>
-  <Image src="/images/Shopping2.png" alt="image"  width={100} height={100} className="font-medium mb-4 w-4 h-6"></Image>
+  <Image src="/images/Shopping2.png" alt="image"  width={100} height={100} className="font-medium mb-4 w-4 h-6" />
 </div>
 <div className="flex justify-between mb-4">
-  <Image src="/images/Shopping5.png"  alt="image"  width={100} height={100}  className="font-medium text-[#9F9F9F]" ></Image>
+  <Image src="/images/Shopping5.png"  alt="image"  width={100} height={100}  className="font-medium text-[#9F9F9F]" />
   <span className="font-medium mt-2">Casaliving Wood
     <p className="text-[#B88E2E] mt-2">1 *  Rs. 270.000.00</p>
   </span>
-  <Image src="/images/Shopping3.png"  alt="image"  width={100} height={100}  className="mb-4 w-4 h-6 mt-4" ></Image>
+  <Image src="/images/Shopping3.png"  alt="image"  width={100} height={100}  className="mb-4 w-4 h-6 mt-4" />
 </div>
 <div className="flex justify-between mb-6">
   <span className="font-medium mt-20">Subtotal</span>

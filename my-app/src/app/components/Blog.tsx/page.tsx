@@ -50,15 +50,15 @@ const Blog = () => {
             src="/images/Blog5.png"
             alt="background image"
             className="object-cover lg:w-[1940px]"
-            width={100}
-            height={100}
-          ></Image>
+            width={1440}
+            height={316}
+          />
           
 
         </div>
 
      
-      <div className="max-w-[1200px] mx-auto flex md:flex-row flex-col gap-2">
+      <div className="max-w-[1200px] mx-auto flex md:flex-row flex-col gap-2 lg:mt-24">
        
         <div className=" flex flex-col">
           <Blogs
@@ -72,7 +72,7 @@ const Blog = () => {
             ]}
           />
           <Blogs
-            Image="/images/Blog2.png"
+            image="/images/Blog2.png"
             title="Exploring new ways of decorating"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum."
             tags={[
@@ -82,7 +82,7 @@ const Blog = () => {
             ]}
           />
           <Blogs
-            Image="/images/Blog3.png"
+            image="/images/Blog3.png"
             title="Handmade pieces that took time to make"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc. In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod elementum."
             tags={[
@@ -134,8 +134,8 @@ const Blog = () => {
                     <Image
                       src={post.image}
                       alt={post.title}
-                      width={64}
-                      height={64}
+                      width={80}
+                      height={80}
                       className="object-cover w-full h-full"
                     />
                   </div> 
@@ -165,7 +165,7 @@ export default Blog;
   return ( 
     <div className="flex flex-col gap-2 mb-2 max-w-[800px]">
       
-      <Image src={image} alt="Blog Image" width={800} height={400} className="rounded-md" /> 
+      <Image src={image} alt="Blog Image" width={817} height={500} className="rounded-md" /> 
 
      
        <div className="flex gap-4 mt-4">

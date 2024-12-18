@@ -12,9 +12,9 @@
       src="/images/bgCart1.png"
       className="lg:w-[1940px]"
       alt="banner"
-      width={100}
-      height={100}
-      ></Image>
+      width={1440}
+      height={316}
+      />
 
      
        <div className="max-w-[1240px] mx-auto p-6 font-Poppins">
@@ -40,7 +40,7 @@
                          alt="Asgaard Sofa"
                          width={100}
                          height={100}
-                         className="w-[70px] h-[70px] rounded-lg  bg-[#F5F5DC]" ></Image>
+                         className="w-[70px] h-[70px] rounded-lg  bg-[#F5F5DC]" />
                        <span>Asgaard Sofa</span>
                      </div>
                      </td>

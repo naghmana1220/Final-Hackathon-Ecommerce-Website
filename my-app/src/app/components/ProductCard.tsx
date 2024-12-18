@@ -8,7 +8,7 @@ const ProductCard = (props: {name: string, price: string , imagePath: string}) =
 
       
         <div className="h-[240px] w-[287px] p-2 flex flex-col items-center justify-center">
-            <Image src={props.imagePath} alt="Product Image" width={300} height={300} className="object-contain w-full h-full"></Image>
+            <Image src={props.imagePath} alt="Product Image" width={300} height={300} className="object-contain w-full h-full" />
         </div>
 
        

@@ -11,6 +11,7 @@ import Blog from "./components/Blog.tsx/page";
 import Cartmain from "./components/Cartmain.tsx/page";
 import Description from "./components/Description";
 import Checkout from "./components/Checkout.tsx/page";
+import ShoppingCart from "./components/ShoppingCart";
 
 
 
@@ -30,6 +31,7 @@ export default  function Home () {
    <Checkout /> 
    <Blog />  
     <Contact />   
+    <ShoppingCart />
   
    
 </div>

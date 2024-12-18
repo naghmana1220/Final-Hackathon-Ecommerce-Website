@@ -11,7 +11,7 @@ const Contact = () => {
         width={1440}
         height={316}      
       className="lg:w-[1940px] "
-        ></Image>
+        />
 </div>
 
 
@@ -26,20 +26,20 @@ const Contact = () => {
        
         <div className="md:w-1/2 p-4">
           <div className="flex items-center mb-4">
-          <Image src="/images/Contact2.png" alt='icon' width={100} height={100}   className='w-6 h-8 pr-2 pt-2 '></Image>
+          <Image src="/images/Contact2.png" alt='icon' width={90} height={100}   className='w-6 h-8 pr-2 pt-2 '/>
             <h3 className="text-lg font-semibold">Address</h3>
           </div>
           <p className="text-gray-600 ">236 5th SE Avenue, </p>
           <p className="text-gray-600">New York NY10000, United States</p>
           <div className="flex items-center mb-4">
-          <Image src="/images/Contact3.png" alt='icon' width={100} height={100} className='w-8 h-8 pr-2 pt-2 '></Image>
+          <Image src="/images/Contact3.png" alt='icon' width={100} height={100} className='w-8 h-8 pr-2 pt-2 ' />
             <h3 className="text-lg font-semibold pt-4">Phone</h3>
           </div>
           <p className="text-gray-600">Mobile: +(84) 546-6789</p>
           <p className="text-gray-600">Hotline: +(84) 456-6789</p>
 
           <div className="flex items-center mb-4">
-           <Image src="/images/Contact2.png"  alt="icon" className='w-6 h-8 pr-2 pt-2 '></Image>
+           <Image src="/images/Contact2.png"  alt="icon" width={40} height={40} className='w-6 h-8 pr-2 pt-2 '/>
              
             <h3 className="text-lg font-semibold pt-3">Working Hours</h3>
           </div>

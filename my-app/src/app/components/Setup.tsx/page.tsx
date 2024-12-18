@@ -25,10 +25,10 @@
                <Image
                  src={src}
                  alt={`Image ${index + 1}`}
-                 width={100}
-                 height={100}
+                 width={451}
+                 height={312}
                  className="w-full h-64 object-cover transition-transform duration-300 ease-in-out transform hover:scale-105"
-               ></Image>
+               />
              </div>
            ))}
          </div>

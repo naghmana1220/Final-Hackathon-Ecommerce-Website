@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
            <div className="w-[50px] h-[32px]">
-          <Image src={"/images/Logo1.png"} alt="Logo" width={100} height={100} className="w-24 h-auto" ></Image>
+          <Image src={"/images/Logo1.png"} alt="Logo" width={100} height={100} className="w-24 h-auto" />
 </div>
 
             <span className="ml-3 text-3xl font-['Montserrat'] font-bold leading-[41.45px] size-[34px] text-[#000000] w-[130px] h-[41px]">Furniro</span>

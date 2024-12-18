@@ -9,21 +9,21 @@ const Range = () => {
         <p className="text-center mb-8 max-w-xl   mx-auto text-[#666666]">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <Image src="/images/Hero2.png" alt="Image 1" className="w-full h-auto" ></Image>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
+            <div className="overflow-hidden rounded-lg shadow-lg ">
+                <Image src="/images/Hero2.png" alt="Image 1"  width={381} height={490}     className="w-full h-auto"   />
                   <p className="text-[#333333] font-bold text-center pt-2">Dining</p>
 
             </div>
-            <div className="overflow-hidden rounded-lg shadow-lg">
-                <Image src="/images/Hero3.png" alt="Image 2" className="w-full h-auto" ></Image>
+            <div className="overflow-hidden rounded-lg shadow-lg ">
+                <Image src="/images/Hero3.png" alt="Image 2" className="w-full h-auto" width={381} height={480}/>
                 <p className="text-[#333333] font-bold text-center pt-2">Living</p>
             </div>
 
             
 
             <div className="overflow-hidden rounded-lg shadow-lg">
-                <Image src="/images/Hero4.png" alt="Image 3" className="w-full h-auto" ></Image>
+                <Image src="/images/Hero4.png" alt="Image 3" width={381} height={480} className="w-full h-auto" />
                 <p className="text-[#333333] font-bold text-center pt-2">Bedroom</p>
             </div>
         </div>

@@ -27,9 +27,9 @@ const Product = () => {
                         src={product.image} 
                         alt={product.title}  
                         className="object-cover  mb-4 w-[289px] h-[301px]"
-                        width={100}
-                        height={100} 
-                    ></Image>
+                        width={285}
+                        height={301} 
+                    />
                     <h3 className="text-lg font-semibold text-[#3A3A3A] ">{product.title}</h3>
                     <p className=" mb-2 text-[#898989] pr-4">{product.description}</p>
                     <span className="text-xl font-bold text-[#3A3A3A] ">{product.price}</span>

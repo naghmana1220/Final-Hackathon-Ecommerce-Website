@@ -60,7 +60,7 @@ const Description = () => {
                             key={i}
                             className={`w-full  flex p-3 justify-center items-center rounded ${active === i ? "border-2 border-black" : ""} `}
                             onClick={() => { setActive(i); } }>
-                            <Image src={key} alt='Product Image' width={121} height={114}></Image>
+                             <Image src={key} alt='Product Image' width={121} height={122} />  
                         </div>
                     ))}
                      </div>
@@ -155,9 +155,9 @@ const Description = () => {
                         <p className='w-[85px] ml-[16px]'>Share</p>
                         <span className='mr-[12px]'>:</span>
                         <p className='flex gap-[25px] '>
-                            <Image src="/images/Sicon1.png" alt="fb" ></Image>
-                            <Image src="/images/Sicon2.png" alt="linkedin" ></Image>
-                            <Image src="/images/Sicon3.png" alt="twitter" ></Image>
+                            <Image src="/images/Sicon1.png" alt="fb"  width={25} height={25} />
+                            <Image src="/images/Sicon2.png" alt="linkedin "  width={25} height={25}/>
+                            <Image src="/images/Sicon3.png" alt="twitter " width={25} height={25}/>
                         </p>
                     </div>
                 
